@@ -1,0 +1,22 @@
+{
+    "title": "LingBot-World NF4",
+    "description": "World Model - Image to Video (4-bit Quantized, ~20GB VRAM)",
+    "icon": "icon.png",
+    "links": [
+        {
+            "icon": "fab fa-github",
+            "title": "GitHub",
+            "url": "https://github.com/Robbyant/lingbot-world"
+        },
+        {
+            "icon": "fas fa-box",
+            "title": "Model NF4",
+            "url": "https://huggingface.co/cahlen/lingbot-world-base-cam-nf4"
+        },
+        {
+            "icon": "fas fa-box",
+            "title": "Model Original",
+            "url": "https://huggingface.co/robbyant/lingbot-world-base-cam"
+        }
+    ]
+}

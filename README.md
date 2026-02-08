@@ -26,7 +26,12 @@ Please visit and star the **[Official Repository](https://github.com/Robbyant/li
 
 ## 🚀 How to Install
 
-1. Download [Pinokio](https://pinokio.computer) if you haven't already.
+This is a **1-Click Localhost** installer powered by the amazing [Pinokio](https://pinokio.computer) platform.
+
+**Why Pinokio?** It lets you run complex AI projects like this one with zero terminal knowledge. Just click, install, and run!
+We highly encourage you to **join the Pinokio community** and start building your own AI launchers. It's the future of local AI! ❤️
+
+1. Download [Pinokio](https://pinokio.computer) (https://pinokio.computer) if you haven't already.
 2. Open Pinokio and navigate to the **Discover** page.
 3. Paste this repository URL into the search bar (or drag and drop the URL).
 4. Click **Download**.
@@ -92,3 +97,4 @@ Please visit and star the **[Official Repository](https://github.com/Robbyant/li
 - **Pinokio Port & Gradio UI by [Zast](https://zast57.com/)**
   - Tech Blog: [Paradoxe Temporel](https://paradoxetemporel.fr)
   - YouTube: [Zast Channel](https://www.youtube.com/@zast)
+  - Twitter/X: [@zast57](https://x.com/zast57)

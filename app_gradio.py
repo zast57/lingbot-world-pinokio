@@ -52,7 +52,7 @@ def load_model_if_needed():
         logger.info("[App] Model Pipeline Loaded Successfully.")
     return PIPELINE
 
-def generate_video(image_path, prompt, action_path, custom_action_path, resolution, frames, steps, progress=gr.Progress()):
+def generate_video(image_path, prompt, action_path, custom_action_path, resolution, frames, steps):
     """
     Direct generation using loaded pipeline.
     """
@@ -81,7 +81,7 @@ def generate_video(image_path, prompt, action_path, custom_action_path, resoluti
         raise gr.Error(f"Failed to load image: {e}")
 
     # Load Model (Lazy Loading)
-    progress(0, desc="Loading Model (One-time)...")
+    # progress(0, desc="Loading Model (One-time)...")
     try:
         pipeline = load_model_if_needed()
     except Exception as e:
@@ -92,7 +92,7 @@ def generate_video(image_path, prompt, action_path, custom_action_path, resoluti
     output_filename = f"output_{timestamp}.mp4"
 
     # Run Generation
-    progress(0.1, desc="Generating Video frames...")
+    # progress(0.1, desc="Generating Video frames...")
     try:
         # We invoke generate directly. 
         # Note: generate() in generate_bnb.py does not take a callback for progress, 

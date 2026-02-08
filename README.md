@@ -90,3 +90,5 @@ Please visit and star the **[Official Repository](https://github.com/Robbyant/li
 - Model by [Robbyant](https://huggingface.co/robbyant/lingbot-world-base-cam)
 - NF4 Quantization by [cahlen](https://huggingface.co/cahlen/lingbot-world-base-cam-nf4)
 - **Pinokio Port & Gradio UI by [Zast](https://zast57.com/)**
+  - Tech Blog: [Paradoxe Temporel](https://paradoxetemporel.fr)
+  - YouTube: [Zast Channel](https://www.youtube.com/@zast)

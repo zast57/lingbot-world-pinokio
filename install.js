@@ -486,7 +486,7 @@ if __name__ == "__main__":
             params: {
                 venv: "env",
                 path: "app",
-                message: "python -c \"import os; open('env/Lib/site-packages/lingbot.pth','w').write(os.getcwd())\""
+                message: "python -c \"import site, os; sp = site.getsitepackages()[0]; open(os.path.join(sp, 'lingbot.pth'), 'w').write(os.getcwd())\""
             }
         },
         // Done

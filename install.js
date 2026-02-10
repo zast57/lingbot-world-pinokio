@@ -474,9 +474,9 @@ if __name__ == "__main__":
                 venv: "env",
                 path: "app",
                 message: [
-                    "pip install einops easydict ftfy scipy tqdm opencv-python imageio[ffmpeg]",
-                    "pip install diffusers transformers accelerate bitsandbytes>=0.49.0",
-                    "pip install huggingface_hub[cli,hf_xet]"
+                    "uv pip install einops easydict ftfy scipy tqdm opencv-python imageio[ffmpeg]",
+                    "uv pip install diffusers transformers accelerate bitsandbytes>=0.49.0",
+                    "uv pip install huggingface_hub[cli,hf_xet]"
                 ]
             }
         },
